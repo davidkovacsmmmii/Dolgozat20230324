@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Készitete: Kovács Dávid 2023.03.24.</p>
+        <h1>Eszterga Munkaidő számitás</h1>
+        <h2>Feladat 0357</h2>
+
+        <h3>Munkaidő számitás</h3>
+        <div class="kiszamitas">
+            <div class="mt3">
+                <label for="hossz"
+                class="form-label">Megmunkált hossz (mm)</label>
+                <input type="text" id="hossz"
+                class="form-control">
+            </div>
+            <div class="mt3">
+                <label for="elotolas"
+                class="form-label">Fordulatonkénti előtolás (mm)</label>
+                <input type="text" id="elotolas"
+                class="form-control">
+            </div>
+            <div class="mt3">
+                <label for="fordulatszam"
+                class="form-label">Főorsó fordulatszám (fordulatszám percenként)</label>
+                <input type="text" id="fordulatszam"
+                class="form-control">
+            </div>
+            <button class="btn btn-primary mt-3"
+            id="calcButton">Számít</button>
+            <p id="result1"></p><br>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+ 
